@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.form-group{
+    margin: 5px 5px;
+}
+.form-control{
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    color: red;
+    display: block;
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: 0 0 3px orangered;
+}
+.button{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px red;
+    padding: 5px 10px;
+    outline: none;
+}
+.button:hover{
+    background-color: orangered;
+}
+.button:focus{
+    box-shadow: 0 0 3px orangered;
+    color: orangered;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+} 
+.container>nav>img{
+    border-top-left-radius: 5px;
+    position: relative;
+    display: block;
+    float: left;
+    width: 45px;
+    height: 40px;
+}
+.container>nav{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container footer{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: block;
+    line-height:30px;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.container>footer>img{
+    position: relative;
+    display: block;
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+.container>footer>p{
+    margin: 0 10px;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
